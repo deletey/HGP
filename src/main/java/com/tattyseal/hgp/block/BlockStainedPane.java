@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.Optional;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-@Optional.Interface(iface = "ljfa.glassshards.api.IShatterableGlass", modid = "glass_shards")
+//@Optional.Interface(iface = "ljfa.glassshards.api.IShatterableGlass", modid = "glass_shards")
 public class BlockStainedPane extends BlockPane
 {
 	public static final PropertyEnum COLOR = PropertyEnum.create("color", BlockStainedPane.EnumType.class);
